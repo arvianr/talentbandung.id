@@ -1,0 +1,18 @@
+#sec-1
+{
+  background-color: cyan;
+  padding: 35px;
+}
+
+.form-sec-2
+{
+  background-color: #eee;
+  margin: 5% 20% 0 20%;
+  padding: 3% 0 0 0;
+
+}
+
+.form-sec-2:hover
+{
+  box-shadow: 10px 10px 35px #888888;
+}
