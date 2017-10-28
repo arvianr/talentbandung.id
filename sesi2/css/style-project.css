@@ -1,62 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   background-color: #F8F9FA;
   margin: 0;
   padding: 0;
+  background-image: url("../images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.site-content{
+  max-width: 1125px;
+  margin: 0 auto;
 }
 
 .hero{
-  height: 718px;
-  background-image: url("../images/bg1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  /*height: 718px;*/
   text-align: center;
-  padding: 110px 0 0 0;
+  padding: 120px 15px;
 }
 
 .subtitle{
-  display: block;
   font-family: 'Caveat';
-  font-size: 60px;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .title{
   font-family: 'Playfair Display';
-  font-size: 65px;
+}
 
+.title, .subtitle{
+  display: block;
+}
+
+.hero .title{
+  font-size: 72px;
+}
+
+.hero .subtitle{
+  font-size: 64px;
 }
 
 .hero p {
   font-family: 'Roboto';
-  font-size: 18px;
-  font-weight: 100;
-  line-height: 1px;
-  margin-bottom: 60px;
+  font-size: 22px;
+  font-weight: 300;
+  /*margin-bottom: 60px;*/
 }
 
-.hero input{
-  width: 450px;
-  padding-left: 15px;
-  height: 45px;
-  border: white;
-  border-radius: 20px;
-  box-shadow: 0 8px 6px -6px #B3B3B3;
+.hero form{
+  max-width: 550px;
+  margin: 70px auto 0;
+  position: relative;
+}
+
+.hero form input{
+  width: 100%;
+  font-size: 16px;
+  padding: 20px 70px 25px 25px;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0 10px 13px rgba(0,0,0,0.1);
 
 }
 
-.hero button{
-  background-color: white;
-  border: white;
-  color: red;
-  font-size: 20px;
-  border-radius: 30px;
-  margin: 0 0 0 -36px;
+.hero form button{
+  position: absolute;
+  outline: none;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: #e3a6a9;
+  font-size: 36px;
 }
 
 .daftar-taman{
-  margin-top: -240px;
+  /*margin-top: -240px;*/
   margin-left: auto;
   margin-right: auto;
   width: 1126px;
