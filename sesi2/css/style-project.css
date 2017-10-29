@@ -97,8 +97,9 @@ body{
 }
 
 @media screen and (max-width:480px){
-  .grid-item{width: 100%}
-  .site-content{width: 100%}
+  .grid-item{
+    width: 100%;
+  }
 }
 
 .grid-layout:after{
@@ -164,54 +165,6 @@ body{
   color: #535353;
 }
 
-/*.daftar-taman{
-  /*margin-top: -240px;*/
-  /*margin-left: auto;
-  margin-right: auto;
-  width: 1126px;
-}
-
-.taman{
-  width: 356px;
-  float: left;
-  margin-left: 15px;
-  margin-bottom: 40px;
-  box-shadow: 0 8px 6px -6px #B3B3B3;
-}
-
-.taman-detail{
-  text-align: center;
-}
-
-.taman-detail a{
-  color: black;
-  text-decoration: none;
-}
-
-.taman-detail .subtitle{
-  font-size: 25px;
-  color: #B3B3B3;
-
-}
-
-.taman-detail .title{
-  font-size: 25px;
-}
-
-.taman-detail p{
-  font-family: 'Roboto';
-  line-height: 2px;
-  font-size: 12px;
-  color: #B3B3B3;
-}
-
-.footer{
-  margin-top: 100px;
-  margin-bottom: 75px;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}*/
 /*======================================== single.html ============================================ */
 
 .hero-single{
