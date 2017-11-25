@@ -1,0 +1,357 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+	font-size  : 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.nopadding {
+  padding-top   : 0 !important;
+  padding-left  : 0 !important;
+  padding-right : 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.sec-1{
+  height           : 100vh;
+  background-color: #A9A9A9;
+}
+
+.banner{
+  max-width : 1000px;
+  margin    : 0 auto;
+  text-align: center;
+  padding   : 100px 150px;
+	color     : white;
+}
+
+.banner figure img{
+	height: 350px;
+	width : 400px;
+}
+
+.title{
+  font-size: 140%;
+}
+
+.sec-1 button {
+  border    : none;
+  outline   : none;
+  background: none;
+  color     : white;
+  font-size : 200%;
+  margin    : 65px 0 0;
+}
+
+.who-are-we {
+  padding         : 110px 90px 0;
+  text-align      : center;
+  height          : 100vh;
+  background-color: #F0EFEF;
+  color           : black;
+
+}
+
+.who-are-we p {
+  font-size: 300%;
+}
+
+.who-are-we button {
+  border    : none;
+  outline   : none;
+  background: none;
+  color     : black;
+  font-size : 200%;
+  margin    : 95px 0 0;
+}
+
+.sec-2 {
+  padding         : 120px 0 0;
+  position        : relative;
+  justify-content : center;
+  overflow        : hidden;
+  height          : 100vh;
+
+}
+
+.who {
+  margin: 0 0 45px;
+}
+
+.sec-2 a {
+  color             : black;
+  text-decoration   : none;
+  /*padding           : 1.5em;*/
+  font-size         : 2em;
+  -webkit-transition: all 200ms ease-out;
+  /*height: 100px;*/
+  /*border: 2px solid black;*/
+}
+
+.hov {
+  /*height: 200px;*/
+  margin: 0 0 35px;
+}
+
+.icon-about {
+  border    : 2px solid white;
+  transition: border 2s ease;
+  text-align: center;
+}
+
+.icon-about figure img{
+  width     : 200px;
+  height    : 200px;
+  opacity   : 1;
+  transition: opacity 2s ease;
+}
+
+.detail-about {
+  /*background-color: white;*/
+  position        : absolute;
+  width           : 160px;
+  bottom          : 18px;
+  padding         : 0 0 0 10px;
+  font-size       : 80%;
+  text-align      : left;
+  transition      : background 1s ease;
+  font-family: 'Cuprum', sans-serif;
+}
+
+.background {
+		position          : fixed;
+		bottom            : 0;
+		left              : 0;
+		width             : 100%;
+		height            : 100%;
+		text-align        : center;
+		background-color: white;
+		opacity           : 0;
+		transition        : opacity 2.5s ease;
+		z-index           : -1;
+		/* ganti background kesini lalu set opacity menjadi 0 dan di hover nya set opacity jadi 1 */
+}
+
+.bg1{
+	background-image : url("../img/123.jpg");
+	background-repeat: no-repeat;
+	background-size  : cover;
+}
+
+.bg2 {
+  background-image : url("../img/traditional-bg.jpg");
+  background-repeat: no-repeat;
+  background-size  : cover;
+}
+
+.bg3 {
+  background-image: url("../img/dance-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg4 {
+  background-image: url("../img/act-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg5 {
+  background-image: url("../img/td-dance-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg6 {
+  background-image: url("../img/art-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.notshow{
+  opacity: 0;
+}
+
+.sec-2 a.about-music:hover~.bg1 {
+  opacity: 1;
+}
+
+.sec-2 a.about-traditional-music:hover~.bg2 {
+  opacity: 1;
+}
+
+.sec-2 a.about-dance:hover~.bg3 {
+  opacity: 1;
+}
+
+.sec-2 a.about-theater:hover~.bg4 {
+  opacity: 1;
+}
+
+.sec-2 a.about-traditional-dance:hover~.bg5 {
+  opacity: 1;
+}
+
+.sec-2 a.about-art:hover~.bg6 {
+  opacity: 1;
+}
+
+.sec-2 a:hover .detail-about {
+  background-color: transparent;
+}
+
+.sec-2 a:hover .icon-about {
+  border: 2px solid black;
+}
+
+.sec-3 {
+  position  : relative;
+  overflow  : hidden;
+  background: transparent;
+	z-index: 1;
+}
+
+.sec-3 .article-1 {
+  background: white;
+  padding   : 0;
+  margin    : 0;
+  text-align: center;
+}
+
+.sec-3 .article-2 {
+  background: white;
+  padding   : 0;
+  margin    : 0;
+  text-align: center;
+}
+
+.sec-3 h4{
+  font-size: 34px;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+.gallery{
+	padding-left : 96px;
+	padding-right: 96px;
+  padding-top  : 50px;
+  height       : 100vh;
+  position     : relative;
+  overflow: hidden;
+}
+.gallery img{
+	height: 450px;
+}
+.grid-layout:after{
+	content: " ";
+	clear  : both;
+	display: block;
+}
+.grid-item{
+	width  : 100%;
+	float  : left;
+	padding: 0 15px;
+}
+.grid-slide {
+  width  : 50%;
+  float  : left;
+  padding: 10px 15px;
+}
+
+.grid-slide span{
+  display: block;
+}
+
+.grid-slide .title-slide {
+  font-size: 450%;
+  margin   : 0;
+}
+
+.grid-slide .date-slide{
+  font-size: 160%;
+  margin   : 10px 0;
+}
+
+.grid-slide .talent-slide {
+  font-size: 170%;
+  margin   : 30px 0 0;
+}
+
+.grid-slide .venue-slide {
+  font-size: 170%;
+  margin   : 30px 0 0;
+}
+
+.grid-slide a button{
+  background-color: white;
+  outline         : none;
+  border          : 2px solid black;
+  max-width       : 150px;
+  width           : 150px;
+  height          : 50px;
+  color           : black;
+  transition      : all 1s ease;
+}
+
+.grid-slide a button:hover {
+  background-color: black;
+  color           : white;
+}
+
+.gallery .arrow {
+  position: absolute;
+  right   : 100px;
+  bottom  : 170px;
+}
+
+.gallery .arrow button {
+  outline         : none;
+  background-color: black;
+  border          : none;
+  font-size       : 200%;
+  color           : white;
+}
+
+.title-events{
+  position: absolute;
+  bottom: 105px;
+  left: -5px;
+  font-size: 450%;
+  transform: rotate(-90deg);
+}
+
+/*========================== FOOTER ======================*/
+
+footer {
+  background-color: black;
+  color           : white;
+
+}
+
+footer .f-item {
+  text-align: center;
+  padding: 0 65px;
+}
+
+footer .f-item figure img {
+  width: 200px;
+  margin: 0;
+}
+
+footer .f-item h7 {
+  font-size: 140%;
+  margin: 0;
+  line-height: 30px;
+}
+
+footer .f-item span a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .f-item .cr p {
+  font-size: 80%;
+}
