@@ -7,23 +7,37 @@
   display: inline-block;
   cursor: pointer;
   padding: 15px;
+  z-index: 2;
 }
 
+.menu-hamburger-wrap {
+  position: relative;
+  padding: 0;
+}
 .bar1, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: black;
     margin: 6px 0;
     transition: 0.4s;
 }
-
 .bar2 {
   width: 25px;
   height: 5px;
-  background-color: #333;
+  background-color: black;
   margin: 6px 0;
   transition: 0.4s;
 }
+.menu-text {
+  position: absolute;
+  top: 20px;
+  left: 65px;
+}
+.menu-text h1 {
+  margin: 0;
+  font-size: 160%;
+}
+
 
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
@@ -49,7 +63,39 @@
   height: 100vh;
   width: 100vw;
   /*background-color: rgba(0,0,0,0.5);*/
-  background: linear-gradient(to bottom, white 0%,white 25%, white 50%, white 75%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0.5) 100%);
+  background: linear-gradient(to right, white 0%,white 25%, white 30%, rgba(0,0,0,0.5) 30%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0.5) 100%);
   display: none;
   padding: 30px;
 }
+
+.list-menu {
+  padding: 55px 0;
+  display: none;
+  position: relative;
+}
+
+.list-menu > ul > li {
+  list-style: none;
+  cursor: pointer;
+}
+  .list-menu > ul > li > a > h2 {
+    font-size: 300%;
+    margin: 20px;
+    transition: all 1s ease;
+  }
+  .list-menu > ul > li > a > h2:hover {
+    transform: translate(30px);
+  }
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-wrap {
+  position: absolute;
+  bottom: 0;
+}
+  .logo-1 figure img {
+    width: 100%;
+  }

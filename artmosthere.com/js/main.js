@@ -98,4 +98,25 @@ $(document).ready(function(){
 		nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
 		prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>'
 	});
+	window.sr = ScrollReveal({reset: true});
+	sr.reveal('.who-p', {duration: 2000});
+	sr.reveal('.icon-about', { duration: 2000 }, 150);
+	sr.reveal('.detail-about', { duration: 2000 }, 150);
+
 });
+
+function isDark( color ) {
+    var match = /rgb\((\d+).*?(\d+).*?(\d+)\)/.exec(color);
+    return parseFloat(match[1])
+         + parseFloat(match[2])
+         + parseFloat(match[3])
+           < 3 * 256 / 2; // r+g+b should be less than half of max (3 * 256)
+};
+
+$('h3').each(function() {
+    $(this).css("color", isDark($(this).css("background-color")) ? 'white' : 'black');
+});
+
+// window.sr = ScrollReveal({ reset: true });
+//
+// sr.reveal('.who-are-we', { duration: 200 });

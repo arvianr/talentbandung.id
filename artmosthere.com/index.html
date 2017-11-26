@@ -11,7 +11,6 @@
 		<link rel="stylesheet" type="text/css" href="css/effect1.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="css/menu.css">
-		<link rel="stylesheet" href="css/list-menu.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.css">
 		<link rel="stylesheet" href="css/slick.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -37,9 +36,12 @@
 			<!-- main content -->
 			<div id="menu-wrap">
 				<div class="container-nav" onclick="myFunction(this)">
-				  <div class="bar1"></div>
-				  <div class="bar2"></div>
-				  <div class="bar3"></div>
+					<div class="menu-hamburger-wrap">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+					</div>
+					<div class="menu-text"><h1>Menu</h1></div>
 				</div>
 				<!-- <button id="nav-menu" type="button" name="button">
 					<div class="line"></div>
@@ -49,33 +51,36 @@
 				<div class="slide-menu">
 					<nav class="list-menu">
 						<ul>
-							<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
-	              <ul class="drop-menu menu-1 rotate">
-	                <li><h2>HOME</h2></li>
-	              </ul>
-	            </li>
-	            <li><a href="events.html"><i class="fa fa-calendar-o" aria-hidden="true"></i></a>
-	              <ul class="drop-menu menu-1 rotate">
-	                <li><h2>EVENT</h2></li>
-	              </ul>
-	            </li>
-	            <li><a href="talents.html"><i class="fa fa-user-o" aria-hidden="true"></i></a>
-	              <ul class="drop-menu menu-1 rotate">
-	                <li><h2>TALENT</h2></li>
-	              </ul>
-	            </li>
-	            <li><a href=""><i class="fa fa-building-o" aria-hidden="true"></i></a>
-	              <ul class="drop-menu menu-1 rotate">
-	                <li><h2>VENUE</h2></li>
-	              </ul>
-	            </li>
-							<!-- <li>04
-								<ul class="drop-menu menu-1 rotate">
-									<li><h2>EVENT</h2></li>
-								</ul>
-							</li> -->
+							<li>
+								<a href="index.html">
+									<h2>HOME</h2>
+								</a>
+							</li>
+							<li>
+								<a href="events.html">
+									<h2>EVENTS</h2>
+								</a>
+							</li>
+							<li>
+								<a href="talents.html">
+									<h2>TALENTS</h2>
+								</a>
+							</li>
+							<li>
+								<a href="venues.html">
+									<h2>VENUES</h2>
+								</a>
+							</li>
 						</ul>
+
 					</nav>
+					<div class="logo-wrap">
+						<div class="logo-1">
+							<figure>
+								<img src="img/talent.png" alt="">
+							</figure>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -85,8 +90,11 @@
 						<figure>
 							<img src="img/LOGO 2.png" alt="logo">
 						</figure>
+						<h3>
+							<span class="title">Hard To Find Art Performances?</span>
+						</h3>
 						<p>
-							<span class="title">Earth Without "ART" just "EH"</span>
+							<span class="subtitle">countless artistic performances are here, this is bandung, when art and city become one</span>
 						</p>
 						<a href="#who">
 							<button type="button" name="button">Who Are We? </br> <i class="fa fa-chevron-down" aria-hidden="true"></i></button>
@@ -98,12 +106,14 @@
 					<div id="who" class="who-are-we">
 						<div class="row">
 							<div class="col-md-12">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, delectus dolor omnis repellat ea labore expedita quam, laborum ratione quidem atque nesciunt velit. Aliquam saepe aut vero temporibus provident sunt.</p>
-								<a href="#categories">
-									<button type="button" name="button">Kind of Events </br> <i class="fa fa-chevron-down" aria-hidden="true"></i></button>
-								</a>
+								<div class="who-p">
+									<p>you will find not only one kind of art show, but more than that, because this is Bandung. with our help, you will easily find it. not just artistic performances, but if you want to make a show, we also provide more than enough information to make it</p>
+								</div>
 							</div>
 						</div>
+						<a href="#categories">
+							<button type="button" name="button">Kind of Events </br> <i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+						</a>
 					</div><!-- who are we-->
 				</div>
 
@@ -330,6 +340,7 @@
 		</footer>
 		<script src="js/jquery-3.1.0.min.js"></script>
 		<script src="js/menu.js"></script>
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 		<script src="js/scroll-landing.js"></script>
 		<script src="js/slide.js"></script>
 		<script src="js/classie.js"></script>

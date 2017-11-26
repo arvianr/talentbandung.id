@@ -17,8 +17,9 @@ body {
 }
 
 .sec-1{
-  height           : 100vh;
+  height          : 100vh;
   background-color: #A9A9A9;
+  position        : relative;
 }
 
 .banner{
@@ -27,15 +28,32 @@ body {
   text-align: center;
   padding   : 100px 150px;
 	color     : white;
+
 }
 
 .banner figure img{
-	height: 350px;
-	width : 400px;
+	height  : 500px;
+	width   : 500px;
+  position: absolute;
+  left    : 100px;
 }
 
 .title{
-  font-size: 140%;
+  font-size : 330%;
+  position  : absolute;
+  top       : 180px;
+  right     : 150px;
+  max-width : 500px;
+  text-align: right;
+}
+
+.subtitle {
+  font-size : 125%;
+  position  : absolute;
+  top       : 345px;
+  right     : 150px;
+  max-width : 350px;
+  text-align: right;
 }
 
 .sec-1 button {
@@ -44,7 +62,13 @@ body {
   background: none;
   color     : white;
   font-size : 200%;
-  margin    : 65px 0 0;
+  position  : absolute;
+  left      : 560px;
+  bottom    : 0;
+}
+
+#who {
+  position: relative;
 }
 
 .who-are-we {
@@ -53,7 +77,6 @@ body {
   height          : 100vh;
   background-color: #F0EFEF;
   color           : black;
-
 }
 
 .who-are-we p {
@@ -66,7 +89,9 @@ body {
   background: none;
   color     : black;
   font-size : 200%;
-  margin    : 95px 0 0;
+  position  : absolute;
+  bottom    : 0;
+  left      : 560px;
 }
 
 .sec-2 {
