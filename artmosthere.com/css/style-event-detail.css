@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.nopadding {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.reveal {
+  background-color: white;
+  position: relative;
+  margin-bottom: 300px;
+}
+
+.parallax-window {
+  padding: 120px 100px;
+  background: transparent;
+  text-align: center;
+}
+  .parallax-window h4 {
+    font-size: 700%;
+    color: white;
+    z-index: 2;
+    position: relative;
+    margin: 0;
+  }
+
+.flyer-wrap {
+  padding: 50px 45px;
+}
+  .flyer-wrap figure img {
+    width: 100%;
+  }
+
+.detail-flyer-wrap {
+  padding: 50px 60px;
+  border-left: 2px solid grey;
+}
+  .detail-flyer-wrap h5 {
+    font-size: 400%;
+    margin: 10px 0;;
+  }
+    .detail-flyer-wrap h5 .date {
+      display: block;
+      font-weight: bold;
+      font-size: 20%;
+      margin: 10px 0;
+    }
+    .detail-flyer-wrap h5 .venue {
+      display: block;
+      font-weight: bold;
+      font-size: 20%;
+      margin: 10px 0;
+    }
+      .detail-flyer-wrap h5 .venue a {
+        text-decoration: none;
+        color: black;
+      }
+    .detail-flyer-wrap h5 .talent {
+      display: block;
+      font-weight: bold;
+      font-size: 20%;
+      margin: 10px 0;
+    }
+      .detail-flyer-wrap h5 .talent a {
+        text-decoration: none;
+        color: black;
+      }
+/*========================== FOOTER ======================*/
+
+footer {
+  background-color: black;
+  color           : white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+  footer .f-item {
+    text-align: center;
+    padding: 0 65px;
+  }
+  footer .f-item figure img {
+    width: 200px;
+    margin: 0;
+  }
+  footer .f-item h7 {
+    font-size: 140%;
+    margin: 0;
+    line-height: 30px;
+  }
+  footer .f-item span a{
+    text-decoration: none;
+    color: white;
+  }
+  footer .f-item .cr p {
+    font-size: 80%;
+  }
