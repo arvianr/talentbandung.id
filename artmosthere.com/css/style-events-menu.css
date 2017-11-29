@@ -21,7 +21,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 45px !important;
-  height: 85vh;
+  min-height: 85vh;
   text-align: center;
   /*margin-bottom: 40px;*/
 }
@@ -31,7 +31,6 @@ body {
     color: white;
   }
   .banner figure img{
-  	height: 350px;
   	width : 400px;
   }
 
@@ -44,6 +43,18 @@ body {
     color: black;
     margin: 0;
   }
+
+@media screen and (max-width: 480px){
+  .banner h3 {
+    font-size: 400%;
+  }
+  .list {
+    padding: 80px 5px;
+  }
+  .list h3 {
+    font-size: 300%;
+  }
+}
 
 .reveal {
   position: relative;
@@ -65,11 +76,18 @@ body {
     margin: 0;
   }
 
+@media screen and (max-width: 480px) {
+  .parallax-window {
+    padding: 60px 40px;
+  }
+  .parallax-window h4 {
+    font-size: 400%;
+  }
+}
+
 
 .left-tab {
-  /*height          : 50vh;*/
   padding         : 40px 0 120px;
-  /*margin          : 80px 0;*/
   background-color: white;
 }
   .left-tab figure img {

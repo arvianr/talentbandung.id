@@ -50,5 +50,12 @@ $(document).ready(function(){
 	// sr.reveal('.who-p', {duration: 2000});
 	// sr.reveal('.icon-about', { duration: 2000 }, 150);
 	// sr.reveal('.detail-about', { duration: 2000 }, 150);
-
+  var gall = $('.gallery-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    autoplay : true,
+    responsive: true,
+    nextArrow: '<button type="button" class="slick-next"><i class="ion-ios-arrow-forward"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><i class="ion-ios-arrow-back"></button>'
+  });
 });

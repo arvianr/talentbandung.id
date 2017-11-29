@@ -70,6 +70,12 @@
   padding: 30px;
 }
 
+@media screen and (max-width: 990px){
+  .slide-menu {
+    background: white;
+  }
+}
+
 .list-menu {
   padding: 55px 0;
   display: none;
