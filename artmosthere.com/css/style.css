@@ -17,44 +17,32 @@ body {
 }
 
 .sec-1{
-  height          : 100vh;
+  min-height: 100vh;
   background-color: #A9A9A9;
   position        : relative;
 }
 
 .banner{
-  max-width : 1000px;
-  margin    : 0 auto;
-  text-align: center;
-  padding   : 100px 150px;
-	color     : white;
-
+  padding: 50px;
 }
+  .banner figure img{
+  	height  : 400px;
+  }
 
-.banner figure img{
-	height  : 500px;
-	width   : 500px;
-  position: absolute;
-  left    : 100px;
+.text-banner {
+  padding: 150px 45px;
 }
+  .title{
+    font-size : 330%;
+    max-width : 500px;
+    text-align: right;
+  }
 
-.title{
-  font-size : 330%;
-  position  : absolute;
-  top       : 180px;
-  right     : 150px;
-  max-width : 500px;
-  text-align: right;
-}
-
-.subtitle {
-  font-size : 125%;
-  position  : absolute;
-  top       : 345px;
-  right     : 150px;
-  max-width : 350px;
-  text-align: right;
-}
+  .subtitle {
+    font-size : 125%;
+    max-width : 350px;
+    text-align: right;
+  }
 
 .sec-1 button {
   border    : none;
@@ -67,6 +55,45 @@ body {
   bottom    : 0;
 }
 
+@media screen and (max-width: 990px){
+  .banner {
+    text-align: center;
+    padding   : 100px 0 0;
+  }
+  .text-banner {
+    padding: 180px 30px 0;
+  }
+  .title {
+    font-size: 270%;
+  }
+  .subtitle {
+    font-size: 100%;
+  }
+  .sec-1 button {
+    left: 370px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .banner {
+    text-align: center;
+    padding   : 50px 5px 0;
+  }
+  .banner figure img {height: 250px}
+  .text-banner {
+    padding: 30px 10px 0;
+  }
+  .title {
+    font-size: 250%;
+  }
+  .subtitle {
+    font-size: 100%;
+  }
+  .sec-1 button {
+    left: 100px;
+  }
+}
+
 #who {
   position: relative;
 }
@@ -74,7 +101,7 @@ body {
 .who-are-we {
   padding         : 110px 90px 0;
   text-align      : center;
-  height          : 100vh;
+  min-height      : 100vh;
   background-color: #F0EFEF;
   color           : black;
 }
@@ -94,12 +121,36 @@ body {
   left      : 560px;
 }
 
+@media screen and (max-width: 990px){
+  .who-are-we {
+    padding: 100px 80px 0;
+  }
+  .who-are-we p {
+    font-size: 280%;
+  }
+  .who-are-we button {
+    left: 380px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .who-are-we {
+    padding: 70px 30px 0;
+  }
+  .who-are-we p {
+    font-size: 200%;
+  }
+  .who-are-we button {
+    left: 110px;
+  }
+}
+
 .sec-2 {
   padding         : 120px 0 0;
   position        : relative;
   justify-content : center;
   overflow        : hidden;
-  height          : 100vh;
+  min-height      : 100vh;
 
 }
 
@@ -263,10 +314,11 @@ body {
 	padding-left : 96px;
 	padding-right: 96px;
   padding-top  : 50px;
-  height       : 100vh;
+  min-height   : 100vh;
   position     : relative;
-  overflow: hidden;
+  overflow     : hidden;
 }
+
 .gallery img{
 	height: 450px;
 }
@@ -348,6 +400,34 @@ body {
   transform: rotate(-90deg);
 }
 
+@media screen and (max-width: 480px){
+  .gallery {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+  .gallery img {
+    height: 400px;
+    margin: 0 auto;
+  }
+  .grid-slide {
+    width: 100%;
+  }
+  .title-events{
+    top: -10px;
+    left: 130px;
+    transform: none;
+    height: fit-content;
+  }
+  .title-events h6 {
+    margin: 0;
+  }
+  .gallery .arrow {
+    bottom: 290px;
+    right: 180px;
+  }
+}
 /*========================== FOOTER ======================*/
 
 footer {
