@@ -1,0 +1,169 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.nopadding {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.reveal {
+  background-color: white;
+  position: relative;
+  margin-bottom: 300px;
+}
+
+.parallax-window {
+  padding: 120px 100px;
+  background: transparent;
+  text-align: center;
+}
+  .parallax-window h4 {
+    font-size: 700%;
+    color: white;
+    z-index: 2;
+    position: relative;
+    margin: 0;
+  }
+
+.photo-wrap {
+  padding: 50px 45px;
+}
+  .photo-wrap figure img {
+    width: 100%;
+  }
+
+.detail-venue-wrap {
+  padding: 50px 60px;
+  border-left: 2px solid grey;
+}
+  .detail-venue-wrap h5 {
+    font-size: 400%;
+    margin: 10px 0;;
+  }
+
+.contact-map {
+  background-color: black;
+}
+
+.contact-wrap {
+  padding: 40px 60px;
+}
+  .contact-wrap h6 {
+    font-size: 350%;
+    color: white;
+    margin: 0;
+  }
+  .contact-wrap p .contact-venue {
+    display: block;
+    color: white;
+    margin: 35px 0;
+  }
+
+.map-wrap {
+  padding: 40px 60px;
+  position: relative;
+  text-align: center;
+}
+  .map {
+    position: relative;
+    height: 300px;
+  }
+  .border-map {
+    border: 5px solid white;
+  }
+  .map-wrap a button {
+    background-color: black;
+    outline         : none;
+    border          : 2px solid white;
+    max-width       : 150px;
+    width           : 150px;
+    height          : 50px;
+    color           : white;
+    transition      : all 1s ease;
+    margin: 25px 0;
+  }
+
+  .map-wrap a button:hover {
+    background-color: white;
+    color           : black;
+  }
+
+
+.layout {
+  background-color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+  .layout h6 {
+    color: black;
+    font-size: 350%;
+    margin: 0;
+  }
+.gallery{
+	padding-left: 150px;
+	padding-right: 150px;
+	margin: 20px 0;
+}
+  .gallery img{
+  	width: 100%;
+  }
+  .gallery .grid-item.slick-slide{
+  	clear: none;
+  }
+  .arrow .slick-prev,
+  .arrow .slick-next{
+  	position: absolute;
+  	width: 120px;
+  	height: 120px;
+  	bottom: 380px;
+  	margin: auto;
+  	border: none;
+  	background-color: rgba(255, 255, 255, 0.5);
+  	font-size: 100px;
+  }
+  .arrow .slick-prev{
+  	right: 85%;
+  }
+  .arrow .slick-next{
+  	left: 85%;
+  }
+/*========================== FOOTER ======================*/
+
+footer {
+  background-color: black;
+  color           : white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+  footer .f-item {
+    text-align: center;
+    padding: 0 65px;
+  }
+  footer .f-item figure img {
+    width: 200px;
+    margin: 0;
+  }
+  footer .f-item h7 {
+    font-size: 140%;
+    margin: 0;
+    line-height: 30px;
+  }
+  footer .f-item span a{
+    text-decoration: none;
+    color: white;
+  }
+  footer .f-item .cr p {
+    font-size: 80%;
+  }

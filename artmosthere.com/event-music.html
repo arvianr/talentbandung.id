@@ -19,10 +19,18 @@
     <!-- Main Menu -->
     <div id="menu-wrap">
       <div class="container-nav" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
+        <div class="menu-hamburger-wrap">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="menu-text"><h1>Menu</h1></div>
       </div>
+      <!-- <button id="nav-menu" type="button" name="button">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </button> -->
       <div class="slide-menu">
         <nav class="list-menu">
           <ul>
@@ -56,8 +64,8 @@
             </figure>
           </div>
         </div><!-- logo wrap -->
-      </div> <!--slide menu-->
-    </div> <!-- menu wrap-->
+      </div><!-- slide menu -->
+    </div><!-- menu wrap -->
 
     <!-- main content -->
     <div class="container-fluid top">
@@ -67,7 +75,7 @@
             <figure>
               <img src="img/LOGO 2.png" alt="logo">
             </figure>
-            <!-- <h3>MUSIC</h3> -->
+            <h3>EVENT</h3>
           </div>
         </div>
       </div><!--row-->
@@ -134,14 +142,14 @@
       <div class="row">
         <div class="col-md-12 events">
           <form>
-            <input type="text" placeholder="Search Name or Months or Years of Events ">
+            <input id="input" type="text" placeholder="Search Name or Months or Years of Events ">
             <button type="submit"><i class="ion-ios-search-strong"></i></button>
           </form>
         </div>
       </div><!-- row -->
       <div class="row grid-event">
         <div class="col-md-4 event">
-          <a href="#">
+          <a href="event-1.html">
             <figure>
               <img src="img/tes.jpg" alt="">
             </figure>
@@ -150,101 +158,129 @@
             <a href="event-music.html">
               <h6><span class="cat">Music</span></h6>
             </a>
-            <a href="#">
+            <a href="event-1.html">
               <h6>Music Event #1</h6>
             </a>
             <p>
               <span class="date">5 Desember 2017</span>
+              <span class="venue"><a href="">Sasana Budaya Ganesha</a></span>
+              <span class="talent"><a href="">The Sigit</a>, <a href="">Speaker First</a></span>
               <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
             </p>
           </div>
+        </div>
 
-        </div>
         <div class="col-md-4 event">
-          <a href="#">
+          <a href="event-1.html">
             <figure>
               <img src="img/tes.jpg" alt="">
             </figure>
-            <div class="event-detail">
-              <h6>
-                <span class="cat">Music</span>
-                Music Event #2
-              </h6>
-              <p>
-                <span class="date">5 Desember 2017</span>
-                <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
-              </p>
-            </div>
           </a>
+          <div class="event-detail">
+            <a href="event-music.html">
+              <h6><span class="cat">Music</span></h6>
+            </a>
+            <a href="event-1.html">
+              <h6>Music Event #2</h6>
+            </a>
+            <p>
+              <span class="date">5 Desember 2017</span>
+              <span class="venue"><a href="">Sasana Budaya Ganesha</a></span>
+              <span class="talent"><a href="">Mocca</a>, <a href="">Speaker First</a></span>
+              <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
+            </p>
+          </div>
         </div>
+
         <div class="col-md-4 event">
-          <a href="#">
+          <a href="event-1.html">
             <figure>
               <img src="img/tes.jpg" alt="">
             </figure>
-            <div class="event-detail">
-              <h6>
-                <span class="cat">Music</span>
-                Music Event #3
-              </h6>
-              <p>
-                <span class="date">5 Desember 2017</span>
-                <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
-              </p>
-            </div>
           </a>
+          <div class="event-detail">
+            <a href="event-music.html">
+              <h6><span class="cat">Music</span></h6>
+            </a>
+            <a href="event-1.html">
+              <h6>Music Event #3</h6>
+            </a>
+            <p>
+              <span class="date">5 Desember 2017</span>
+              <span class="venue"><a href="">Sasana Budaya Ganesha</a></span>
+              <span class="talent"><a href="">The Sigit</a>, <a href="">Speaker First</a></span>
+              <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
+            </p>
+          </div>
         </div>
+
         <div class="col-md-4 event">
-          <a href="#">
+          <a href="event-1.html">
             <figure>
               <img src="img/tes.jpg" alt="">
             </figure>
-            <div class="event-detail">
-              <h6>
-                <span class="cat">Music</span>
-                Music Event #4
-              </h6>
-              <p>
-                <span class="date">5 Desember 2017</span>
-                <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
-              </p>
-            </div>
           </a>
+          <div class="event-detail">
+            <a href="event-music.html">
+              <h6><span class="cat">Music</span></h6>
+            </a>
+            <a href="event-1.html">
+              <h6>Music Event #4</h6>
+            </a>
+            <p>
+              <span class="date">5 Desember 2017</span>
+              <span class="venue"><a href="">Sasana Budaya Ganesha</a></span>
+              <span class="talent"><a href="">The Sigit</a>, <a href="">Speaker First</a></span>
+              <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
+            </p>
+          </div>
         </div>
+
         <div class="col-md-4 event">
-          <a href="#">
+          <a href="event-1.html">
             <figure>
               <img src="img/tes.jpg" alt="">
             </figure>
-            <div class="event-detail">
-              <h6>
-                <span class="cat">Music</span>
-                Music Event #5
-              </h6>
-              <p>
-                <span class="date">5 Desember 2017</span>
-                <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
-              </p>
-            </div>
           </a>
+          <div class="event-detail">
+            <a href="event-music.html">
+              <h6><span class="cat">Music</span></h6>
+            </a>
+            <a href="event-1.html">
+              <h6>Music Event #5</h6>
+            </a>
+            <p>
+              <span class="date">5 Desember 2017</span>
+              <span class="venue"><a href="">Sasana Budaya Ganesha</a></span>
+              <span class="talent"><a href="">The Sigit</a>, <a href="">Speaker First</a></span>
+              <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
+            </p>
+          </div>
         </div>
+
         <div class="col-md-4 event">
-          <a href="#">
+          <a href="event-1.html">
             <figure>
               <img src="img/tes.jpg" alt="">
             </figure>
-            <div class="event-detail">
-              <h6>
-                <span class="cat">Music</span>
-                Music Event #6
-              </h6>
-              <p>
-                <span class="date">5 Desember 2017</span>
-                <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
-              </p>
-            </div>
           </a>
+          <div class="event-detail">
+            <a href="event-music.html">
+              <h6><span class="cat">Music</span></h6>
+            </a>
+            <a href="event-1.html">
+              <h6>Music Event #6</h6>
+            </a>
+            <p>
+              <span class="date">5 Desember 2017</span>
+              <span class="venue"><a href="">Sasana Budaya Ganesha</a></span>
+              <span class="talent"><a href="">The Sigit</a>, <a href="">Speaker First</a></span>
+              <span class="dtl">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span>
+            </p>
+          </div>
         </div>
+
+
       </div>
     </div><!-- container fluid -->
     </div>

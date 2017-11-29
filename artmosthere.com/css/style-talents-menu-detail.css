@@ -10,7 +10,7 @@ body {
 }
 
 .banner {
-  background-image: url("../img/123.jpg");
+  background-image: url("../img/talent-music-banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 45px;
@@ -57,6 +57,54 @@ body {
 
 .white {
   background-color: white;
+}
+.gallery {
+  padding: 100px 0;
+  position: relative;
+  background-color: white;
+  z-index: 4;
+}
+
+.gallery figure img {
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.gal-wrap {
+  padding: 0 !important;
+  background-color: white;
+}
+
+.gal-big {
+  height: 500px;
+  padding: 0;
+  text-align: center;
+}
+
+.gal-small {
+  height: 250px;
+  padding: 0;
+  text-align: center;
+  padding: 0; !important
+}
+
+.front {
+  z-index: -1;
+}
+
+.gal-title {
+  position: absolute;
+  top: 400px;
+  right: 950px;
+}
+
+.gal-title h5 {
+  margin: 0;
+  font-size: 200%;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
 }
 
 .filter-events {
@@ -126,7 +174,7 @@ body {
   text-align: left;
 }
   .event-detail .cat {
-    font-size: 80%;
+    font-size: 60%;
     display: block;
   }
   .event-detail a {
@@ -137,9 +185,31 @@ body {
     font-size: 160%;
     color: black;
   }
-  .event-detail .address {
+  .event-detail .date {
     font-weight: bold;
+    display: block;
+    margin: 8px 0;
   }
+  .event-detail .venue {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    display: block;
+    margin: 8px 0;
+  }
+    .event-detail p .venue a {
+      color: black;
+    }
+  .event-detail .talent {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    display: block;
+    margin: 8px 0;
+  }
+    .event-detail p .talent a {
+      color: black;
+    }
   .event-detail .dtl {
     font-size: 100%;
     display: block;

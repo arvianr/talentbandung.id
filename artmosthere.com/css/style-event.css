@@ -187,7 +187,29 @@ body {
   }
   .event-detail .date {
     font-weight: bold;
+    display: block;
+    margin: 8px 0;
   }
+  .event-detail .venue {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    display: block;
+    margin: 8px 0;
+  }
+    .event-detail p .venue a {
+      color: black;
+    }
+  .event-detail .talent {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    display: block;
+    margin: 8px 0;
+  }
+    .event-detail p .talent a {
+      color: black;
+    }
   .event-detail .dtl {
     font-size: 100%;
     display: block;

@@ -11,3 +11,19 @@ $(window).scroll(function(){
     });
   }
 });
+
+var input = $('#input');
+input.keyup(filter);
+
+function filter(){
+  var search = $('.event');
+
+  for (var i = 0; i < search.length; i++) {
+    var item = $(search[i]).text().toLowerCase();
+    if (item.indexOf(input.val().toLowerCase()) > -1) {
+      $(search[i]).slideDown();
+    }else {
+      $(search[i]).slideUp();
+    }
+  }
+}

@@ -20,3 +20,35 @@ $(window).scroll(function(){
 
 
 });
+
+var input = $('#input');
+input.keyup(filter);
+
+function filter(){
+  var search = $('.event');
+
+  for (var i = 0; i < search.length; i++) {
+    var item = $(search[i]).text().toLowerCase();
+    if (item.indexOf(input.val().toLowerCase()) > -1) {
+      $(search[i]).slideDown();
+    }else {
+      $(search[i]).slideUp();
+    }
+  }
+};
+
+$(document).ready(function(){
+	var ev = $('.gallery-carousel').slick({
+		// infinite: true;
+		// slidesToShow: 1;
+		responsive: true,
+		appendArrows:$('.arrow'),
+		nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
+		prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>'
+	});
+	// window.sr = ScrollReveal({reset: true});
+	// sr.reveal('.who-p', {duration: 2000});
+	// sr.reveal('.icon-about', { duration: 2000 }, 150);
+	// sr.reveal('.detail-about', { duration: 2000 }, 150);
+
+});
