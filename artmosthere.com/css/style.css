@@ -16,21 +16,28 @@ body {
   padding-bottom: 0 !important;
 }
 
+.sec-1-wrap {
+  background-color: black;
+  background-image: url("../img/bg-index2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .sec-1{
-  min-height: 100vh;
-  background-color: #A9A9A9;
+  height: 100vh;
+  /*background-color: #A9A9A9;*/
   position        : relative;
 }
 
 .banner{
-  padding: 50px;
+  padding: 100px 50px 50px;
 }
   .banner figure img{
-  	height  : 400px;
+  	height  : 500px;
   }
 
 .text-banner {
-  padding: 150px 45px;
+  padding: 170px 45px;
 }
   .title{
     font-size : 330%;
@@ -48,7 +55,7 @@ body {
   border    : none;
   outline   : none;
   background: none;
-  color     : white;
+  color     : black;
   font-size : 200%;
   position  : absolute;
   left      : 560px;
@@ -56,6 +63,9 @@ body {
 }
 
 @media screen and (max-width: 990px){
+  .sec-1 {
+    min-height: 100vh;
+  }
   .banner {
     text-align: center;
     padding   : 100px 0 0;
@@ -75,6 +85,9 @@ body {
 }
 
 @media screen and (max-width: 480px){
+  .sec-1 {
+    min-height: 100vh;
+  }
   .banner {
     text-align: center;
     padding   : 50px 5px 0;
@@ -118,7 +131,7 @@ body {
   font-size : 200%;
   position  : absolute;
   bottom    : 0;
-  left      : 560px;
+  left      : 572px;
 }
 
 @media screen and (max-width: 990px){

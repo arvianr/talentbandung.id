@@ -35,6 +35,15 @@ body {
     margin: 0;
   }
 
+@media screen and (max-width: 480px){
+  .parallax-window {
+    padding: 100px 30px;
+  }
+  .parallax-window h4 {
+    font-size: 500%;
+  }
+}
+
 .photo-wrap {
   padding: 50px 45px;
 }
@@ -137,6 +146,35 @@ body {
   .arrow .slick-next{
   	left: 85%;
   }
+
+@media screen and (max-width: 990px){
+
+  .arrow .slick-prev,
+  .arrow .slick-next {
+    font-size: 70px;
+  }
+  .arrow .slick-prev,
+  .arrow .slick-next {
+    top: 85%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .gallery {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .arrow .slick-prev,
+  .arrow .slick-next {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  .arrow .slick-prev,
+  .arrow .slick-next {
+    top: 96%;
+  }
+}
 /*========================== FOOTER ======================*/
 
 footer {

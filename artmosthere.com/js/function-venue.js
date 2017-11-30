@@ -11,7 +11,7 @@ $(document).ready(function(){
 });
 
 function initMap() {
-  var sabuga = {lat:-6.912992, lng: 107.609583};
+  var sabuga = {lat:-6.886559, lng: 107.608383};
   var map = new google.maps.Map(document.getElementById('sabuga'), {
     zoom: 17,
     center: sabuga

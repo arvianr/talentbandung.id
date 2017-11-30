@@ -36,6 +36,15 @@ body {
     margin: 0;
   }
 
+@media screen and (max-width: 480px){
+  .parallax-window {
+    padding: 160px 0;
+  }
+  .parallax-window h4 {
+    font-size: 500%;
+  }
+}
+
 .profile {
   padding: 0 100px;
 }
@@ -48,6 +57,12 @@ body {
     margin: 0;
     color: black;
   }
+
+@media screen and (max-width: 480px){
+  .profile {
+    padding: 0 30px;
+  }
+}
 
 .logo-talent {
   padding: 45px 0;
@@ -96,6 +111,15 @@ body {
       font-size: 100%;
       font-weight: lighter;
     }
+
+@media screen and (max-width: 480px){
+  .contact {
+    padding: 30px 50px 40px;
+  }
+  .contact h4 {
+    margin: 0;
+  }
+}
 
 /*========================SLIDER==========================*/
 
@@ -192,6 +216,35 @@ body {
     margin: 0;
   }
 
+@media screen and (max-width: 480px){
+  .gallery {
+    padding-left  : 0;
+    padding-right : 0;
+    padding-top   : 120px;
+    padding-bottom: 0;
+  }
+  .gallery img {
+    height: 400px;
+    margin: 0 auto;
+  }
+  .grid-slide {
+    width: 100%;
+  }
+  .title-events{
+    top      : 0;
+    left     : 95px;
+    transform: none;
+    height   : fit-content;
+  }
+  .title-events h6 {
+    margin   : 0;
+    font-size: 70%;
+  }
+  .gallery .arrow {
+    bottom: 290px;
+    right : 180px;
+  }
+}
   /*========================== FOOTER ======================*/
 
   footer {

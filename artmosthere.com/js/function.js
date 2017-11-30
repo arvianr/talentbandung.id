@@ -27,3 +27,14 @@ function filter(){
     }
   }
 }
+
+$(document).ready(function(){
+  window.sr = ScrollReveal({reset: true});
+  sr.reveal('.rv1', { duration: 2000 }, 150);
+  sr.reveal('.rv2', { duration: 2000 }, 150);
+  sr.reveal('.rv3', { duration: 2000 }, 150);
+  sr.reveal('.rv4', { duration: 2000 }, 150);
+  sr.reveal('.rv5', { duration: 2000 }, 150);
+  sr.reveal('.rv6', { duration: 2000 }, 150);
+
+});
