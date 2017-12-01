@@ -18,7 +18,7 @@ body {
 
 .sec-1-wrap {
   background-color: black;
-  background-image: url("../img/bg-index2.png");
+  background-image: url("../img/Pasopati.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -159,7 +159,7 @@ body {
 }
 
 .sec-2 {
-  padding         : 120px 0 0;
+  padding         : 80px 0 0;
   position        : relative;
   justify-content : center;
   overflow        : hidden;
@@ -183,7 +183,7 @@ body {
 
 .hov {
   /*height: 200px;*/
-  margin: 0 0 35px;
+  margin: 0 0 65px;
 }
 
 .icon-about {
@@ -202,14 +202,18 @@ body {
 .detail-about {
   /*background-color: white;*/
   position        : absolute;
-  width           : 160px;
-  bottom          : 18px;
+  width           : fit-content;
+  bottom          : 0;
   padding         : 0 0 0 10px;
   font-size       : 80%;
   text-align      : left;
   transition      : background 1s ease;
   font-family: 'Cuprum', sans-serif;
 }
+  .detail-about h3 {
+    color: black;
+    transition: color 1s ease;
+  }
 
 .background {
 		position          : fixed;
@@ -226,13 +230,13 @@ body {
 }
 
 .bg1{
-	background-image : url("../img/123.jpg");
+	background-image : url("../img/music-banner.jpg");
 	background-repeat: no-repeat;
 	background-size  : cover;
 }
 
 .bg2 {
-  background-image : url("../img/traditional-bg.jpg");
+  background-image : url("../img/talent/ka-banner.jpg");
   background-repeat: no-repeat;
   background-size  : cover;
 }
@@ -244,19 +248,19 @@ body {
 }
 
 .bg4 {
-  background-image: url("../img/act-bg.jpg");
+  background-image: url("../img/category/theater-bg.JPG");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg5 {
-  background-image: url("../img/td-dance-bg.jpg");
+  background-image: url("../img/dance-td-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg6 {
-  background-image: url("../img/art-bg.jpg");
+  background-image: url("../img/art-bdg-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

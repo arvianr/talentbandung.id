@@ -80,10 +80,12 @@ jQuery(document).ready(function ($) {
 
 		$('.hov').mouseover(function(){
 			$('.icon-about figure img').css("opacity", "0");
+			$('.detail-about h3').css("color", "white");
 		});
 
 		$('div.hov').mouseout(function(){
 			$('.icon-about figure img').css("opacity", "1");
+			$('.detail-about h3').css("color", "black");
 		});
 
 });

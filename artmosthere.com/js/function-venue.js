@@ -20,4 +20,18 @@ function initMap() {
     position: sabuga,
     map: map
   });
+
+}
+
+function eldoradoMap(){
+  var eldorado = {lat:-6.840826, lng: 107.598761};
+  var map = new google.maps.Map(document.getElementById('eldorado'), {
+    zoom: 17,
+    center: eldorado
+  });
+  var marker = new google.maps.Marker({
+    position: eldorado,
+    map: map
+  });
+
 }
