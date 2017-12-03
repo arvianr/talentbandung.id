@@ -253,13 +253,13 @@ body {
 }
 
 .bg1{
-	background-image : url("../img/music-banner.jpg");
+	background-image : url("../img/event-banner.jpg");
 	background-repeat: no-repeat;
 	background-size  : cover;
 }
 
 .bg2 {
-  background-image : url("../img/talent/ka-banner.jpg");
+  background-image : url("../img/td-music-bg.jpg");
   background-repeat: no-repeat;
   background-size  : cover;
 }
@@ -271,7 +271,7 @@ body {
 }
 
 .bg4 {
-  background-image: url("../img/category/theater-bg.JPG");
+  background-image: url("../img/theater-bg.JPG");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -283,7 +283,7 @@ body {
 }
 
 .bg6 {
-  background-image: url("../img/art-bdg-bg.jpg");
+  background-image: url("../img/art-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
