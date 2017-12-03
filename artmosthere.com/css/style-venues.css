@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
 
 *{
   box-sizing: border-box;
@@ -10,7 +11,7 @@ body {
 }
 
 .banner {
-  background-image: url("../img/123.jpg");
+  background-image: url("../img/venue-banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 45px;
@@ -53,6 +54,7 @@ body {
   .t h4 {
     font-size: 430%;
     margin: 0;
+    font-family: Righteous;
   }
 
 .white {
@@ -136,6 +138,7 @@ body {
     margin: 0;
     font-size: 160%;
     color: black;
+    font-family: Righteous;
   }
   .event-detail .address {
     font-weight: bold;

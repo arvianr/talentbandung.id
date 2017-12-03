@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
 
 *{
   box-sizing: border-box;
@@ -20,6 +21,7 @@ body {
 
 .banner h3 {
   font-size: 700%;
+  font-family: Righteous;
   margin: 0;
   color: white;
 }
@@ -51,16 +53,17 @@ body {
 }
 
 .right-side {
-  position: absolute;
+  position        : absolute;
   background-color: white;
-  padding: 40px 60px;
-  top: -40px;
-  right: 20px;
+  padding         : 40px 60px;
+  top             : -40px;
+  right           : 20px;
 }
 
   .t h4 {
     font-size: 430%;
     margin: 0;
+    font-family: Righteous;
   }
 
 @media screen and (max-width: 480px){
@@ -90,6 +93,7 @@ body {
     .title-gall h3 {
       margin: 0;
       font-size: 350%;
+      font-family: Righteous;
     }
 
   .gallery-slider {
@@ -221,6 +225,7 @@ body {
   .event-detail .cat {
     font-size: 60%;
     display: block;
+    font-family: Raleway;
   }
   .event-detail a {
     text-decoration: none;
@@ -229,6 +234,7 @@ body {
     margin: 0;
     font-size: 160%;
     color: black;
+    font-family: Righteous;
   }
   .event-detail .date {
     font-weight: bold;

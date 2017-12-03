@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
 
 *{
   box-sizing: border-box;
@@ -29,6 +30,7 @@ body {
 }
   .parallax-window h4 {
     font-size: 700%;
+    font-family: Righteous;
     color: white;
     z-index: 2;
     position: relative;
@@ -59,6 +61,9 @@ body {
     font-size: 400%;
     margin: 10px 0;;
   }
+    .detail-flyer-wrap h5 .title-event {
+      font-family: Righteous;
+    }
     .detail-flyer-wrap h5 .date {
       display: block;
       font-weight: bold;
@@ -78,13 +83,58 @@ body {
     .detail-flyer-wrap h5 .talent {
       display: block;
       font-weight: bold;
-      font-size: 20%;
+      font-size: 30%;
       margin: 10px 0;
     }
       .detail-flyer-wrap h5 .talent a {
         text-decoration: none;
         color: black;
       }
+      .contact {
+        display: block;
+        margin: 20px 0;
+        font-size: 26px;
+      }
+      .contact a {
+        text-decoration: none;
+        color: black;
+      }
+
+.loc {
+  background-color: #E1E1E1;
+  padding: 0 50px;
+}
+  .loc-wrap {
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+  }
+  .loc-wrap h6 {
+    font-size: 65px;
+    margin: 0;
+  }
+  .map {
+    position: relative;
+    height: 350px;
+  }
+  .border-map {
+    border: 5px solid white;
+  }
+  .loc-wrap a button {
+    background-color: black;
+    outline         : none;
+    border          : 2px solid white;
+    max-width       : 150px;
+    width           : 150px;
+    height          : 50px;
+    color           : white;
+    transition      : all 1s ease;
+    margin          : 25px 0;
+  }
+  .loc-wrap a button:hover {
+    background-color: white;
+    color           : black;
+  }
 /*========================== FOOTER ======================*/
 
 footer {

@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
 
 *{
   box-sizing: border-box;
@@ -23,15 +24,15 @@ body {
   padding: 45px !important;
   height: 85vh;
   text-align: center;
-  /*margin-bottom: 40px;*/
 }
   .banner h3 {
     font-size: 700%;
     margin: 0;
     color: white;
+    font-family: Righteous;
   }
   .banner figure img{
-  	height: 350px;
+  	width: 400px;
   	width : 400px;
   }
 
@@ -70,10 +71,11 @@ body {
   text-align: center;
 }
   .parallax-window h4 {
-    font-size: 700%;
+    font-size: 800%;
     color: white;
     z-index: 2;
     position: relative;
+    font-family: Righteous;
     margin: 0;
   }
 
@@ -99,11 +101,11 @@ body {
     .ev-desc-left h4 .category {
       font-size  : 150%;
       font-weight: lighter;
-      display    : block;
-    }
-
+      display: block;
+   }
     .ev-desc-left h4 .title {
-      font-size: 300%;
+      font-size: 400%;
+      font-family: Righteous;
     }
 
 .right-tab {
@@ -124,7 +126,8 @@ body {
       display    : block;
     }
     .ev-desc-right h4 .title {
-      font-size: 300%;
+      font-size: 400%;
+      font-family: Righteous;
     }
 
 button.look {
