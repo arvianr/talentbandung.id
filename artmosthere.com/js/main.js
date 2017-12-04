@@ -98,7 +98,7 @@ $(document).ready(function(){
 		nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
 		prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>'
 	});
-	window.sr = ScrollReveal({reset: true});
+	window.sr = ScrollReveal({reset: false});
 	sr.reveal('.who-p', {duration: 2000});
 	sr.reveal('.icon-about', { duration: 2000 }, 150);
 	sr.reveal('.detail-about', { duration: 2000 }, 150);

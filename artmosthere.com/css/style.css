@@ -168,7 +168,7 @@ body {
 }
 
 .sec-2 {
-  padding         : 120px 0 0;
+  padding         : 120px 0 120px;
   position        : relative;
   justify-content : center;
   overflow        : hidden;
@@ -196,15 +196,37 @@ body {
 }
 
 .icon-about {
-  transition: border 2s ease;
+  transition: all 2s ease;
   text-align: center;
+  border: none;
+  position: relative;
+}
+.icon-about .subtitle {
+  position: absolute;
+  font-family: Righteous;
+  font-size: 40px;
+  z-index: -1;
+  top: 0;
+  display: none;
+  color: white;
+  transition: all 2s ease;
+  text-align: left;
 }
 
 .icon-about figure img{
-  width     : 100px;
-  height    : 100px;
+  width     : 70%;
+  /*height    : 700px;*/
   opacity   : 1;
   transition: opacity 2s ease;
+}
+
+@media screen and (max-width: 990px){
+  .icon-about figure img {
+    width: 100%;
+  }
+  .icon-about .subtitle {
+    font-size: 20px;
+  }
 }
 
 .detail-about {
@@ -290,6 +312,15 @@ body {
 
 .notshow{
   opacity: 0;
+}
+
+.sec-2 a .icon-about:hover {
+  border: 2px solid white;
+}
+
+.sec-2 a .icon-about:hover > .subtitle {
+  display: block;
+  margin: 0 auto;
 }
 
 .sec-2 a.about-music:hover~.bg1 {
