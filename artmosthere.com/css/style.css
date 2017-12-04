@@ -209,12 +209,12 @@ body {
 
 .detail-about {
   /*background-color: white;*/
-  position        : absolute;
-  width           : fit-content;
-  bottom          : 100px;
+  /*position        : absolute;
+  width           : fit-content;*/
+  /*bottom          : 100px;*/
   padding         : 0 0 0 10px;
   font-size       : 80%;
-  text-align      : left;
+  text-align      : center;
   transition      : background 1s ease;
 }
   .detail-about h3 {
