@@ -201,7 +201,7 @@ body {
   border: none;
   position: relative;
 }
-.icon-about .subtitle {
+.icon-about .subtitle-icon {
   position: absolute;
   font-family: Righteous;
   font-size: 40px;
@@ -224,7 +224,7 @@ body {
   .icon-about figure img {
     width: 100%;
   }
-  .icon-about .subtitle {
+  .icon-about .subtitle-icon {
     font-size: 20px;
   }
 }
@@ -318,7 +318,7 @@ body {
   border: 2px solid white;
 }
 
-.sec-2 a .icon-about:hover > .subtitle {
+.sec-2 a .icon-about:hover > .subtitle-icon {
   display: block;
   margin: 0 auto;
 }
