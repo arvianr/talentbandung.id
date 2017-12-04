@@ -1,0 +1,184 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.nopadding {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.banner {
+  background-image: url("../img/event-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 45px !important;
+  min-height: 85vh;
+  text-align: center;
+  /*margin-bottom: 40px;*/
+}
+  .banner h3 {
+    font-size: 700%;
+    margin: 0;
+    color: white;
+    font-family: Righteous;
+  }
+  .banner figure img{
+  	width : 400px;
+  }
+
+.list {
+  padding: 110px 20px;
+  text-align: right;
+}
+  .list h3 {
+    font-size: 600%;
+    color: black;
+    margin: 0;
+  }
+
+@media screen and (max-width: 480px){
+  .banner h3 {
+    font-size: 400%;
+  }
+  .list {
+    padding: 80px 5px;
+  }
+  .list h3 {
+    font-size: 300%;
+  }
+}
+
+.reveal {
+  position: relative;
+  margin-bottom: 300px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.parallax-window {
+  padding: 120px 100px;
+  background: transparent;
+  text-align: center;
+}
+  .parallax-window h4 {
+    font-size: 800%;
+    font-family: Righteous;
+    color: white;
+    z-index: 2;
+    position: relative;
+    margin: 0;
+  }
+
+@media screen and (max-width: 480px) {
+  .parallax-window {
+    padding: 60px 40px;
+  }
+  .parallax-window h4 {
+    font-size: 400%;
+  }
+}
+
+.left-tab {
+  padding         : 40px 0 120px;
+  background-color: white;
+}
+  .left-tab figure img {
+    width: 100%;
+  }
+  .ev-desc-left {
+    padding: 0 40px;
+  }
+    .ev-desc-left h4 .category {
+      font-size  : 150%;
+      font-weight: lighter;
+      display    : block;
+    }
+
+    .ev-desc-left h4 .title {
+      font-size: 400%;
+      font-family: Righteous;
+    }
+
+.right-tab {
+  /*height          : 50vh;*/
+  padding         : 40px 0 120px;
+  /*margin          : 80px 0;*/
+  background-color: white;
+}
+  .right-tab figure img {
+    width: 100%;
+  }
+  .ev-desc-right {
+    padding: 0 40px;
+  }
+    .ev-desc-right h4 .category {
+      font-size  : 150%;
+      font-weight: lighter;
+      display    : block;
+    }
+    .ev-desc-right h4 .title {
+      font-size: 400%;
+      font-family: Righteous;
+    }
+
+button.look {
+  background-color: white;
+  outline         : none;
+  border          : 2px solid black;
+  max-width       : 150px;
+  width           : 150px;
+  height          : 50px;
+  color           : black;
+  transition      : all 1s ease;
+}
+
+button.look:hover {
+  background-color: black;
+  color           : white;
+}
+
+/*========================== FOOTER ======================*/
+
+footer {
+  background-color: black;
+  color           : white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+footer .f-item {
+  text-align: center;
+  padding: 0 65px;
+}
+
+footer .f-item figure img {
+  width: 200px;
+  margin: 0;
+}
+
+footer .f-item h7 {
+  font-size: 140%;
+  margin: 0;
+  line-height: 30px;
+}
+
+footer .f-item span a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .f-item .cr p {
+  font-size: 80%;
+}
