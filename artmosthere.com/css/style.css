@@ -63,10 +63,18 @@ body {
   background: none;
   color     : black;
   font-size : 200%;
-  position  : absolute;
-  left      : 560px;
-  bottom    : 0;
   font-family: Righteous;
+}
+
+.button {
+  position    : absolute;
+  left        : 0;
+  right       : 0;
+  bottom      : 0;
+  margin-left : auto;
+  margin-right: auto;
+  width: 600px;
+  text-align: center;
 }
 
 @media screen and (max-width: 990px){
@@ -85,9 +93,6 @@ body {
   }
   .subtitle {
     font-size: 100%;
-  }
-  .sec-1 button {
-    left: 370px;
   }
 }
 
@@ -136,9 +141,6 @@ body {
   background: none;
   color     : black;
   font-size : 200%;
-  position  : absolute;
-  bottom    : 0;
-  left      : 572px;
   font-family: Righteous;
 
 }
@@ -149,9 +151,6 @@ body {
   }
   .who-are-we p {
     font-size: 280%;
-  }
-  .who-are-we button {
-    left: 380px;
   }
 }
 
@@ -193,24 +192,31 @@ body {
 .hov {
   /*height: 200px;*/
   margin: 0 0 135px;
+  position: relative;
 }
 
 .icon-about {
   transition: all 2s ease;
   text-align: center;
   border: none;
-  position: relative;
 }
+
 .icon-about .subtitle-icon {
   position: absolute;
   font-family: Righteous;
   font-size: 40px;
   z-index: -1;
   top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
   display: none;
   color: white;
   transition: all 2s ease;
-  text-align: left;
+  text-align: center;
 }
 
 .icon-about figure img{
