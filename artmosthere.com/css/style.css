@@ -170,6 +170,7 @@ body {
 
 .who-are-we p {
   font-size: 4vw;
+  font-family: 'Raleway', Arial, sans-serif;
 }
 
 .who-are-we button {
@@ -217,7 +218,12 @@ body {
   justify-content : center;
   overflow        : hidden;
   min-height      : 100vh;
+}
 
+@media screen and (max-width: 480px){
+  .sec-2 {
+    padding: 40px 0 0;
+  }
 }
 
 .who {
@@ -246,10 +252,14 @@ body {
   border: none;
 }
 
+.icon-about figure img {
+  width: 100%;
+}
+
 .icon-about .subtitle-icon {
   position: absolute;
   font-family: Righteous;
-  font-size: 40px;
+  font-size: 2vw;
   z-index: -1;
   top: 0;
   left: 0;
@@ -280,6 +290,15 @@ body {
   }
 }
 
+@media screen and (max-width: 480px){
+  .icon-about figure img {
+    width: 70%;
+  }
+  .icon-about .subtitle-icon {
+    font-size: 10vw;
+  }
+}
+
 .detail-about {
   /*background-color: white;
   position        : absolute;
@@ -305,6 +324,13 @@ body {
     font-size: 3.5vw;
   }
 }
+
+@media screen and (max-width: 480px){
+  .detail-about h3 {
+    font-size: 12vw;
+  }
+}
+
 .background {
 		position        : fixed;
 		bottom          : 0;
@@ -400,6 +426,35 @@ body {
 
 .sec-2 a:hover .detail-about {
   background-color: transparent;
+}
+
+@media screen and (max-width: 990px){
+  .sec-2 a .icon-about:hover {
+    border: none;
+  }
+  .sec-2 a.about-music:hover~.bg1 {
+    opacity: 0;
+  }
+
+  .sec-2 a.about-traditional-music:hover~.bg2 {
+    opacity: 0;
+  }
+
+  .sec-2 a.about-dance:hover~.bg3 {
+    opacity: 0;
+  }
+
+  .sec-2 a.about-theater:hover~.bg4 {
+    opacity: 0;
+  }
+
+  .sec-2 a.about-traditional-dance:hover~.bg5 {
+    opacity: 0;
+  }
+
+  .sec-2 a.about-art:hover~.bg6 {
+    opacity: 0;
+  }
 }
 
 .sec-3 {
@@ -548,6 +603,19 @@ body {
   }
   .gallery .arrow {
     display: none;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .gallery {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  .gallery img {
+    height: 300px;
+    margin: 0 auto;
   }
 }
 /*========================== FOOTER ======================*/
