@@ -46,13 +46,13 @@ body {
 }
   .title{
     font-family: Righteous;
-    font-size : 330%;
+    font-size : 4.5vw;
     max-width : 500px;
     text-align: right;
   }
 
   .subtitle {
-    font-size : 125%;
+    font-size : 2vw;
     max-width : 350px;
     text-align: right;
   }
@@ -62,7 +62,7 @@ body {
   outline   : none;
   background: none;
   color     : black;
-  font-size : 200%;
+  font-size : 2.4vw;
   font-family: Righteous;
 }
 
@@ -89,33 +89,70 @@ body {
     padding: 180px 30px 0;
   }
   .title {
-    font-size: 270%;
+    font-size: 6vw;
   }
   .subtitle {
-    font-size: 100%;
+    font-size: 2vw;
   }
 }
+
+@media screen and (max-width: 770px){
+  .banner {
+    padding: 40px 0 0;
+  }
+  .title {
+    font-size: 6vw;
+  }
+  .subtitle {
+    font-size: 3vw;
+  }
+  .sec-1 button {
+    font-size: 3.5vw;
+  }
+}
+
 
 @media screen and (max-width: 480px){
   .sec-1 {
     min-height: 100vh;
+    padding: 50px 0 0;
   }
   .banner {
-    text-align: center;
     padding   : 50px 5px 0;
   }
   .banner figure img {height: 250px}
   .text-banner {
     padding: 30px 10px 0;
+    text-align: center;
   }
   .title {
-    font-size: 250%;
+    font-size: 12vw;
   }
   .subtitle {
-    font-size: 100%;
+    font-size: 5vw;
   }
   .sec-1 button {
     display: none;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .sec-1-wrap {
+    background-color: black;
+    background-image: url("../img/responsive/Pasopati.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  .text-banner {
+    padding: 50px 10px 0;
+    text-align: center;
+  }
+  .title {
+    font-size: 12vw;
+  }
+  .subtitle {
+    font-size: 6vw;
   }
 }
 
@@ -124,7 +161,7 @@ body {
 }
 
 .who-are-we {
-  padding         : 110px 90px 0;
+  padding         : 80px 90px 0;
   text-align      : center;
   min-height      : 100vh;
   background-color: #F0EFEF;
@@ -132,7 +169,7 @@ body {
 }
 
 .who-are-we p {
-  font-size: 300%;
+  font-size: 4vw;
 }
 
 .who-are-we button {
@@ -140,9 +177,8 @@ body {
   outline   : none;
   background: none;
   color     : black;
-  font-size : 200%;
+  font-size : 2.4vw;
   font-family: Righteous;
-
 }
 
 @media screen and (max-width: 990px){
@@ -150,16 +186,25 @@ body {
     padding: 100px 80px 0;
   }
   .who-are-we p {
-    font-size: 280%;
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .who-are-we p {
+    font-size: 5vw;
+  }
+  .who-are-we button {
+    font-size : 3.5vw;
   }
 }
 
 @media screen and (max-width: 480px){
   .who-are-we {
-    padding: 70px 30px 0;
+    padding: 140px 30px 0;
   }
   .who-are-we p {
-    font-size: 170%;
+    font-size: 7vw;
   }
   .who-are-we button {
     display: none;
@@ -231,7 +276,7 @@ body {
     width: 100%;
   }
   .icon-about .subtitle-icon {
-    font-size: 20px;
+    font-size: 2.5vw;
   }
 }
 
@@ -240,7 +285,7 @@ body {
   position        : absolute;
   width           : fit-content;
   bottom          : 100px;*/
-  padding         : 0 0 0 10px;
+  /*padding         : 0 0 0 10px;*/
   font-size       : 80%;
   text-align      : center;
   transition      : background 1s ease;
@@ -257,7 +302,7 @@ body {
     bottom: 80px;
   }
   .detail-about h3 {
-    font-size: 25px;
+    font-size: 3.5vw;
   }
 }
 .background {
