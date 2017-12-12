@@ -46,6 +46,15 @@ body {
     margin: 0;
   }
 
+@media screen and (max-width: 990px){
+  .banner{
+    padding: 80px !important;
+  }
+  .banner figure img {
+    width: 35vw;
+  }
+}
+
 @media screen and (max-width: 480px){
   .banner h3 {
     font-size: 400%;
@@ -99,14 +108,18 @@ body {
     padding: 0 40px;
   }
     .ev-desc-left h4 .category {
-      font-size  : 150%;
+      font-size  : 2vw;
       font-weight: lighter;
       display    : block;
     }
 
     .ev-desc-left h4 .title {
-      font-size: 400%;
+      font-size: 4.5vw;
       font-family: Righteous;
+    }
+
+    .ev-desc-left p {
+      font-size: 1.2vw;
     }
 
 .right-tab {
@@ -122,13 +135,16 @@ body {
     padding: 0 40px;
   }
     .ev-desc-right h4 .category {
-      font-size  : 150%;
+      font-size  : 2vw;
       font-weight: lighter;
       display    : block;
     }
     .ev-desc-right h4 .title {
-      font-size: 400%;
+      font-size: 4.5vw;
       font-family: Righteous;
+    }
+    .ev-desc-right p {
+      font-size: 1.2vw;
     }
 
 button.look {
