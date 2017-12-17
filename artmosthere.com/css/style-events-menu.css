@@ -55,6 +55,21 @@ body {
   }
 }
 
+@media screen and (max-width: 800px){
+  .banner {
+    padding: 100px !important;
+  }
+  .banner figure img {
+    width: 40vw;
+  }
+  .logo h3 {
+    font-size: 12vw;
+  }
+  .list h3 {
+    font-size: 8vw;
+  }
+}
+
 @media screen and (max-width: 480px){
   .banner h3 {
     font-size: 400%;
@@ -161,6 +176,10 @@ button.look {
 button.look:hover {
   background-color: black;
   color           : white;
+}
+
+@media screen and (max-width: 990px){
+  
 }
 
 /*========================== FOOTER ======================*/
