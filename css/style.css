@@ -1,0 +1,652 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+*{
+  box-sizing: border-box;
+}
+
+.ip-logo h1 {
+  font-family: Righteous;
+}
+
+body {
+	font-size  : 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.nopadding {
+  padding-top   : 0 !important;
+  padding-left  : 0 !important;
+  padding-right : 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.sec-1-wrap {
+  background-color: black;
+  background-image: url("../img/Pasopati.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec-1{
+  height: 100vh;
+  /*background-color: #A9A9A9;*/
+  position        : relative;
+}
+
+.banner{
+  padding: 100px 50px 50px;
+}
+  .banner figure img{
+  	height  : 500px;
+  }
+
+.text-banner {
+  padding: 170px 45px;
+}
+  .title{
+    font-family: Righteous;
+    font-size : 4.5vw;
+    max-width : 500px;
+    text-align: right;
+  }
+
+  .subtitle {
+    font-size : 2vw;
+    max-width : 350px;
+    text-align: right;
+  }
+
+.sec-1 button {
+  border    : none;
+  outline   : none;
+  background: none;
+  color     : black;
+  font-size : 2.4vw;
+  font-family: Righteous;
+}
+
+.button {
+  position    : absolute;
+  left        : 0;
+  right       : 0;
+  bottom      : 0;
+  margin-left : auto;
+  margin-right: auto;
+  width: 600px;
+  text-align: center;
+}
+
+@media screen and (max-width: 990px){
+  .sec-1 {
+    min-height: 100vh;
+  }
+  .banner {
+    text-align: center;
+    padding   : 100px 0 0;
+  }
+  .text-banner {
+    padding: 180px 30px 0;
+  }
+  .title {
+    font-size: 6vw;
+  }
+  .subtitle {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .banner {
+    padding: 40px 0 0;
+  }
+  .title {
+    font-size: 6vw;
+  }
+  .subtitle {
+    font-size: 3vw;
+  }
+  .sec-1 button {
+    font-size: 3.5vw;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  .sec-1 {
+    min-height: 100vh;
+    padding: 50px 0 0;
+  }
+  .banner {
+    padding   : 50px 5px 0;
+  }
+  .banner figure img {height: 250px}
+  .text-banner {
+    padding: 30px 10px 0;
+    text-align: center;
+  }
+  .title {
+    font-size: 12vw;
+  }
+  .subtitle {
+    font-size: 5vw;
+  }
+  .sec-1 button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .sec-1-wrap {
+    background-color: black;
+    background-image: url("../img/responsive/Pasopati.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  .text-banner {
+    padding: 50px 10px 0;
+    text-align: center;
+  }
+  .title {
+    font-size: 12vw;
+  }
+  .subtitle {
+    font-size: 6vw;
+  }
+}
+
+#who {
+  position: relative;
+}
+
+.who-are-we {
+  padding         : 80px 90px 0;
+  text-align      : center;
+  min-height      : 100vh;
+  background-color: #F0EFEF;
+  color           : black;
+}
+
+.who-are-we p {
+  font-size: 4vw;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+.who-are-we button {
+  border    : none;
+  outline   : none;
+  background: none;
+  color     : black;
+  font-size : 2.4vw;
+  font-family: Righteous;
+}
+
+@media screen and (max-width: 990px){
+  .who-are-we {
+    padding: 100px 80px 0;
+  }
+  .who-are-we p {
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .who-are-we p {
+    font-size: 5vw;
+  }
+  .who-are-we button {
+    font-size : 3.5vw;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .who-are-we {
+    padding: 140px 30px 0;
+  }
+  .who-are-we p {
+    font-size: 7vw;
+  }
+  .who-are-we button {
+    display: none;
+  }
+}
+
+.sec-2 {
+  padding         : 120px 0 120px;
+  position        : relative;
+  justify-content : center;
+  overflow        : hidden;
+  min-height      : 100vh;
+}
+
+@media screen and (max-width: 480px){
+  .sec-2 {
+    padding: 40px 0 0;
+  }
+}
+
+.who {
+  margin: 0 0 45px;
+}
+
+.sec-2 a {
+  color             : black;
+  text-decoration   : none;
+  /*padding           : 1.5em;*/
+  font-size         : 2em;
+  -webkit-transition: all 200ms ease-out;
+  /*height: 100px;*/
+  /*border: 2px solid black;*/
+}
+
+.hov {
+  /*height: 200px;*/
+  margin: 0 0 135px;
+  position: relative;
+}
+
+.icon-about {
+  transition: all 2s ease;
+  text-align: center;
+  border: none;
+}
+
+.icon-about figure img {
+  width: 100%;
+}
+
+.icon-about .subtitle-icon {
+  position: absolute;
+  font-family: Righteous;
+  font-size: 2vw;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  display: none;
+  color: white;
+  transition: all 2s ease;
+  text-align: center;
+}
+
+.icon-about figure img{
+  width     : 70%;
+  /*height    : 700px;*/
+  opacity   : 1;
+  transition: opacity 2s ease;
+}
+
+@media screen and (max-width: 990px){
+  .icon-about figure img {
+    width: 100%;
+  }
+  .icon-about .subtitle-icon {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .icon-about figure img {
+    width: 70%;
+  }
+  .icon-about .subtitle-icon {
+    font-size: 10vw;
+  }
+}
+
+.detail-about {
+  /*background-color: white;
+  position        : absolute;
+  width           : fit-content;
+  bottom          : 100px;*/
+  /*padding         : 0 0 0 10px;*/
+  font-size       : 80%;
+  text-align      : center;
+  transition      : background 1s ease;
+}
+  .detail-about h3 {
+    font-family: Righteous;
+    margin: 0;
+    color: black;
+    transition: all 1s ease;
+  }
+
+@media screen and (max-width: 990px){
+  .detail-about {
+    bottom: 80px;
+  }
+  .detail-about h3 {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .detail-about h3 {
+    font-size: 12vw;
+  }
+}
+
+.background {
+		position        : fixed;
+		bottom          : 0;
+		left            : 0;
+		width           : 100%;
+		height          : 100%;
+		text-align      : center;
+		background-color: white;
+		opacity         : 0;
+		transition      : opacity 2.5s ease;
+		z-index         : -1;
+		/* ganti background kesini lalu set opacity menjadi 0 dan di hover nya set opacity jadi 1 */
+}
+
+.background h3 {
+  color: white;
+  font-size: 150px;
+  font-family: Righteous;
+}
+
+.bg1{
+	background-image : url("../img/event-banner.jpg");
+	background-repeat: no-repeat;
+	background-size  : cover;
+}
+
+.bg2 {
+  background-image : url("../img/td-music-bg.jpg");
+  background-repeat: no-repeat;
+  background-size  : cover;
+}
+
+.bg3 {
+  background-image: url("../img/dance-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg4 {
+  background-image: url("../img/theater-bg.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg5 {
+  background-image: url("../img/dance-td-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg6 {
+  background-image: url("../img/art-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.notshow{
+  opacity: 0;
+}
+
+.sec-2 a .icon-about:hover {
+  border: 2px solid white;
+}
+
+.sec-2 a .icon-about:hover > .subtitle-icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.sec-2 a.about-music:hover~.bg1 {
+  opacity: 1;
+}
+
+.sec-2 a.about-traditional-music:hover~.bg2 {
+  opacity: 1;
+}
+
+.sec-2 a.about-dance:hover~.bg3 {
+  opacity: 1;
+}
+
+.sec-2 a.about-theater:hover~.bg4 {
+  opacity: 1;
+}
+
+.sec-2 a.about-traditional-dance:hover~.bg5 {
+  opacity: 1;
+}
+
+.sec-2 a.about-art:hover~.bg6 {
+  opacity: 1;
+}
+
+.sec-2 a:hover .detail-about {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 990px){
+  .sec-2 a .icon-about:hover {
+    border: none;
+  }
+  .sec-2 a.about-music:hover~.bg1 {
+    opacity: 0;
+  }
+
+  .sec-2 a.about-traditional-music:hover~.bg2 {
+    opacity: 0;
+  }
+
+  .sec-2 a.about-dance:hover~.bg3 {
+    opacity: 0;
+  }
+
+  .sec-2 a.about-theater:hover~.bg4 {
+    opacity: 0;
+  }
+
+  .sec-2 a.about-traditional-dance:hover~.bg5 {
+    opacity: 0;
+  }
+
+  .sec-2 a.about-art:hover~.bg6 {
+    opacity: 0;
+  }
+}
+
+.sec-3 {
+  position  : relative;
+  overflow  : hidden;
+  background: transparent;
+	z-index: 1;
+}
+
+.sec-3 .article-1 {
+  background: white;
+  padding   : 0;
+  margin    : 0;
+  text-align: center;
+}
+
+.sec-3 .article-2 {
+  background: white;
+  padding   : 0;
+  margin    : 0;
+  text-align: center;
+}
+
+.sec-3 h4{
+  font-size: 34px;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+.gallery{
+	padding-left : 96px;
+	padding-right: 96px;
+  padding-top  : 50px;
+  min-height   : 100vh;
+  position     : relative;
+  overflow     : hidden;
+}
+
+.gallery img{
+	height: 450px;
+}
+.grid-layout:after{
+	content: " ";
+	clear  : both;
+	display: block;
+}
+.grid-item{
+	width  : 100%;
+	float  : left;
+	padding: 0 15px;
+}
+.grid-slide {
+  width  : 50%;
+  float  : left;
+  padding: 10px 15px;
+}
+
+.grid-slide span{
+  display: block;
+}
+
+.grid-slide .title-slide {
+  font-size: 450%;
+  margin   : 0;
+}
+
+.grid-slide .date-slide{
+  font-size: 160%;
+  margin   : 10px 0;
+}
+
+.grid-slide .talent-slide {
+  font-size: 170%;
+  margin   : 30px 0 0;
+}
+
+.grid-slide .venue-slide {
+  font-size: 170%;
+  margin   : 30px 0 0;
+}
+
+.grid-slide a button{
+  background-color: white;
+  outline         : none;
+  border          : 2px solid black;
+  max-width       : 150px;
+  width           : 150px;
+  height          : 50px;
+  color           : black;
+  transition      : all 1s ease;
+}
+
+.grid-slide a button:hover {
+  background-color: black;
+  color           : white;
+}
+
+.title-slide {
+  font-family: Righteous;
+}
+
+.gallery .arrow {
+  position: absolute;
+  right   : 100px;
+  bottom  : 170px;
+}
+
+.gallery .arrow button {
+  outline         : none;
+  background-color: black;
+  border          : none;
+  font-size       : 200%;
+  color           : white;
+}
+
+.title-events{
+  position: absolute;
+  bottom: 105px;
+  left: -5px;
+  font-size: 450%;
+  transform: rotate(-90deg);
+  font-family: Righteous;
+}
+
+@media screen and (max-width: 480px){
+  .gallery {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+  .gallery img {
+    height: 400px;
+    margin: 0 auto;
+  }
+  .grid-slide {
+    width: 100%;
+  }
+  .title-events{
+    top: -10px;
+    left: 130px;
+    transform: none;
+    height: fit-content;
+  }
+  .title-events h6 {
+    margin: 0;
+  }
+  .gallery .arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .gallery {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  .gallery img {
+    height: 300px;
+    margin: 0 auto;
+  }
+}
+/*========================== FOOTER ======================*/
+
+footer {
+  background-color: black;
+  color           : white;
+
+}
+
+footer .f-item {
+  text-align: center;
+  padding: 0 65px;
+}
+
+footer .f-item figure img {
+  width: 200px;
+  margin: 0;
+}
+
+footer .f-item h7 {
+  font-size: 140%;
+  margin: 0;
+  line-height: 30px;
+}
+
+footer .f-item span a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .f-item .cr p {
+  font-size: 80%;
+}

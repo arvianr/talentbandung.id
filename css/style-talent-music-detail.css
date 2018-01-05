@@ -1,0 +1,283 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.nopadding {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.reveal {
+  background-color: white;
+  position: relative;
+  margin-bottom: 300px;
+}
+
+.parallax-window {
+  /*height: 100vh;*/
+  padding: 250px 0;
+  background: transparent;
+  text-align: center;
+}
+  .parallax-window h4 {
+    font-size: 800%;
+    font-family: Righteous;
+    color: white;
+    z-index: 2;
+    position: relative;
+    margin: 0;
+  }
+
+@media screen and (max-width: 480px){
+  .parallax-window {
+    padding: 160px 0;
+  }
+  .parallax-window h4 {
+    font-size: 500%;
+  }
+}
+
+.profile {
+  padding: 0 100px;
+}
+.profile-talent {
+  padding: 30px;
+  background-color: white;
+}
+  .profile-talent h3 {
+    font-size: 420%;
+    margin: 0;
+    color: black;
+    font-family: Righteous;
+  }
+
+@media screen and (max-width: 480px){
+  .profile {
+    padding: 0 30px;
+  }
+}
+
+.logo-talent {
+  padding: 45px 0;
+  background-color: white;
+  text-align: center;
+}
+  .logo-talent figure img {
+    width: 100%;
+  }
+
+.contact {
+  padding: 40px 100px 0;
+  background-color: black;
+  text-align: center;
+}
+  .contact h4 {
+    color: white;
+    font-family: Righteous;
+    font-size: 420%;
+    margin: 0 0 100px;
+  }
+  .contact-grid {
+    padding: 25px 0 0;
+  }
+    .contact .email h4{
+      color: white;
+      font-size: 100%;
+      font-weight: lighter;
+    }
+    .contact .socmed {
+      border-left: 1px solid grey;
+      border-right: 1px solid grey;
+    }
+    .contact .socmed a {
+      color: white;
+      text-decoration: none;
+    }
+    .contact .socmed i {
+      font-size: 150%;
+      margin: 0 5px;
+    }
+    .contact .website a {
+      color: white;
+      text-decoration: none;
+    }
+    .contact .website h4 {
+      font-size: 100%;
+      font-weight: lighter;
+    }
+
+@media screen and (max-width: 480px){
+  .contact {
+    padding: 30px 50px 40px;
+  }
+  .contact h4 {
+    margin: 0;
+  }
+}
+
+/*========================SLIDER==========================*/
+
+.gallery{
+	padding-left : 100px;
+	padding-right: 100px;
+  padding-top  : 90px;
+  padding-bottom: 90px;
+  /*height       : 100vh;*/
+  position     : relative;
+  overflow: hidden;
+}
+.gallery img{
+	height: 450px;
+}
+.grid-layout:after{
+	content: " ";
+	clear  : both;
+	display: block;
+}
+.grid-item{
+	width  : 100%;
+	float  : left;
+	padding: 0 15px;
+}
+.grid-slide {
+  width  : 50%;
+  float  : left;
+  padding: 10px 15px;
+}
+
+.grid-slide span{
+  display: block;
+}
+
+.grid-slide .title-slide {
+  font-size: 450%;
+  margin   : 0;
+  font-family: Righteous;
+}
+
+.grid-slide .date-slide{
+  font-size: 160%;
+  margin   : 10px 0;
+}
+
+.grid-slide .talent-slide {
+  font-size: 170%;
+  margin   : 30px 0 0;
+}
+
+.grid-slide .venue-slide {
+  font-size: 170%;
+  margin   : 30px 0 0;
+}
+
+.grid-slide a button{
+  background-color: white;
+  outline         : none;
+  border          : 2px solid black;
+  max-width       : 150px;
+  width           : 150px;
+  height          : 50px;
+  color           : black;
+  transition      : all 1s ease;
+}
+
+.grid-slide a button:hover {
+  background-color: black;
+  color           : white;
+}
+
+.gallery .arrow {
+  position: absolute;
+  right   : 100px;
+  bottom  : 100px;
+}
+
+.gallery .arrow button {
+  outline         : none;
+  background-color: black;
+  border          : none;
+  font-size       : 200%;
+  color           : white;
+}
+
+.title-events{
+  position: absolute;
+  bottom: 280px;
+  left: -135px;
+  font-size: 450%;
+  transform: rotate(-90deg);
+}
+  .title-events h6 {
+    margin: 0;
+    font-family: Righteous;
+  }
+
+@media screen and (max-width: 480px){
+  .gallery {
+    padding-left  : 0;
+    padding-right : 0;
+    padding-top   : 120px;
+    padding-bottom: 0;
+  }
+  .gallery img {
+    height: 400px;
+    margin: 0 auto;
+  }
+  .grid-slide {
+    width: 100%;
+  }
+  .title-events{
+    top      : 0;
+    left     : 95px;
+    transform: none;
+    height   : fit-content;
+  }
+  .title-events h6 {
+    margin   : 0;
+    font-size: 70%;
+  }
+  .gallery .arrow {
+    bottom: 290px;
+    right : 180px;
+  }
+}
+  /*========================== FOOTER ======================*/
+
+  footer {
+    background-color: black;
+    color           : white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+  }
+    footer .f-item {
+      text-align: center;
+      padding: 0 65px;
+    }
+    footer .f-item figure img {
+      width: 200px;
+      margin: 0;
+    }
+    footer .f-item h7 {
+      font-size: 140%;
+      margin: 0;
+      line-height: 30px;
+    }
+    footer .f-item span a{
+      text-decoration: none;
+      color: white;
+    }
+    footer .f-item .cr p {
+      font-size: 80%;
+    }
